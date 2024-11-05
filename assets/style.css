@@ -1,21 +1,29 @@
 body{
     background-color: #B99470;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
 }
 
-.navbar .container{
-    background-color: #f1eccd;
-    height: 50px;
+.navbar {
+    background-color: #B99470;
 }
 
 .navbar-brand {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
-    margin-left: 20px;
     color: #B99470;
+} 
+
+.navbar-brand:hover {
+    color: #C0C78C;
 }
 
-.navbar-brand:hover{
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: #C0C78C;
+}
+
+.nav-link:hover {
     color: #C0C78C;
 }
 
@@ -29,42 +37,13 @@ body{
     color: #C0C78C;
 }
 
-.button {
-    background-color: #C0C78C;
-    color: #f1eccd;
-    text-transform: uppercase;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-left: 50px;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #f1eccd;
-    color: #C0C78C;
-}
-
 .jumbotron {
-    background-image: url("img/jumbotron.png");
-    padding: 2rem 1rem;
+    background-color: #f1eccd;
+    padding-top: 100px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.jumbotron .display {
-    color: #f1eccd;
-    margin-left: 50px;
-    margin-top: 100px;
-    font-weight: 300px;
-}
-
-.jumbotron .display-1 {
-    color: #f1eccd;
-    margin-left: 50px;
-    text-align: justify;
-    margin-bottom: 30px;
-    font-size: 18px;
+    text-align: center;
 }
 
 .container {
@@ -73,14 +52,11 @@ body{
 }
 
 .display-4 {
-    margin-top: 20px;
-    margin-bottom: 0;
+    text-align: center;
     color: #B99470;
+    margin-top: 50px;
 }
 
-.mt-3 {
-    color: #B99470;
-}
 .list-group {
     border-radius: 5px;
     padding-bottom: 30px;
@@ -90,6 +66,25 @@ body{
     background-color: #C0C78C;
     color: #f1eccd;
     border-radius: 5px;
+}
+
+.button {
+    background-color: #C0C78C;
+    color: #f1eccd;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #f1eccd;
+    color: #C0C78C;
+}
+
+.mt {
+    color: #B99470;
 }
 
 .custom-progress {
@@ -102,13 +97,12 @@ body{
 }
 
 .custom-table {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .custom-table th, .custom-table td {
     background-color: #f1eccd;
     color: #B99470; 
-    border-radius: 5px;
 }
 
 .card {
@@ -118,7 +112,7 @@ body{
 }
 
 .footer-brand {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     margin-right: 10px;
     color: #B99470;
@@ -134,7 +128,7 @@ body{
     padding-top: 20px;
 }
 
-#skills {
+#profile {
     margin-top: 5px;
     padding-top: 20px;
 }
@@ -144,7 +138,12 @@ body{
     padding-top: 20px;
 }
 
+#skills {
+    margin-top: 4px;
+    padding-top: 20px;
+}
+
 #experience {
-    margin-top: 5px;
+    margin-top: 4px;
     padding-top: 20px;
 }
